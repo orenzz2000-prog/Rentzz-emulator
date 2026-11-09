@@ -5,80 +5,69 @@
 # SPDX-FileCopyrightText: 2018 yuzu Emulator Project
 # SPDX-License-Identifier: GPL-2.0-or-later
 -->
-<!-- lang: en-GB -->
 
 <h1 align="center">
   <br>
-  <a href="https://git.eden-emu.dev/eden-emu/eden"><img src="https://github.com/user-attachments/assets/35031845-4bfa-4916-8bf5-bc3bce67d5e2" alt="Eglantine" width="200"></a>
+  <b>RENTZZ EMULATOR</b>
   <br>
-  <b>Eglantine</b>
+  <sub>Experimental Nintendo Switch 2 emulator project</sub>
   <br>
 </h1>
 
-<h4 align="center"><b>Eglantine</b> is a free and opensource (FOSS) Switch 2 emulator, derived from Eden, Yuzu and Sudachi - started by developer Camille LaVey.
-It's written in C++ with portability in mind, with builds for Windows, Linux and macOS
-</h4>
-
 <p align="center">
-    </a>
-    <a href="https://discord.gg/XkS5NVPTUY">
-        <img src="https://img.shields.io/discord/1367654015269339267?color=5865F2&label=Eglantine&logo=discord&logoColor=white"
-            alt="Discord">
-    </a>
-  
+  <b>Built for experimentation, performance research and open-source development.</b>
 </p>
 
 <p align="center">
-  <a href="#compatibility">Compatibility</a> |
-  <a href="#development">Development</a> |
-  <a href="#building">Building</a> |
-  <a href="#download">Download</a> |
-  <a href="#support">Support</a> |
-  <a href="#license">License</a>
+  <img src="https://img.shields.io/badge/status-in%20development-1677ff?style=for-the-badge" alt="Project status: in development">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-222222?style=for-the-badge" alt="Platforms">
+  <img src="https://img.shields.io/badge/language-C%2B%2B-00599C?style=for-the-badge" alt="C++">
 </p>
 
-## Compatibility
+---
 
-The emulator is capable of running Mario Kart World at decent/full speed depending on specs and configurations, and Splatoon Raiders at variable performances
+## About Rentzz
 
-A list of supported games will be available in future. Please be patient.
+**Rentzz Emulator** is an experimental open-source emulator project based on the Eglantine codebase. The project aims to maintain and improve the inherited emulator architecture while exploring stability, compatibility and performance improvements.
+
+Rentzz is currently under development. Features, compatibility and performance may change as the project evolves.
+
+## Project goals
+
+- Maintain a reliable and understandable codebase.
+- Investigate performance bottlenecks through testing and measurement.
+- Improve stability and game compatibility where possible.
+- Keep development transparent and document meaningful changes.
+- Preserve the licenses and attribution of upstream projects.
 
 ## Development
 
-For development discussions, please join us on [Discord](https://discord.gg/XkS5NVPTUY)
+The project is written primarily in **C++** and uses **CMake** as its build system.
 
-If you would like to contribute, we are open to new developers and pull requests. Please ensure that your work is of a high standard and properly documented. You can also contact any of the developers on Discord or Stoat to learn more about the current state of the emulator.
-
-## Documentation
-
-We have a user manual! See our [User Handbook](./docs/user/README.md).
+Before submitting changes:
+1. Keep modifications focused and documented.
+2. Build and test the affected components.
+3. Include reproducible details for bug reports.
+4. Do not remove upstream copyright notices or license headers.
 
 ## Building
 
-See the [General Build Guide](docs/Build.md)
+Build instructions are available in the repository:
 
-For information on provided development tooling, see the [Tools directory](./tools)
+- [General Build Guide](docs/Build.md)
+- [Tools](tools/)
+- [User documentation](docs/user/README.md)
 
-## Download
+Build requirements and supported configurations may vary by operating system and by the current state of the codebase.
 
-You can download the latest releases from [here](https://github.com/Djihads80/Eglantine/releases).
+## Upstream acknowledgements
 
-## Support
+Rentzz is based on the Eglantine codebase and inherits work from projects including **Eden**, **yuzu** and **Sudachi**. We acknowledge the developers and contributors whose work made this codebase possible.
 
-We currently do not take in any donations for the time being
-
-If you would prefer to support us in a different way, please join our [Discord](https://discord.gg/XkS5NVPTUY)
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=djihads80%2Feglantine&type=date&legend=bottom-right">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=djihads80/eglantine&type=date&theme=dark&legend=bottom-right" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=djihads80/eglantine&type=date&legend=bottom-right" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=djihads80/eglantine&type=date&legend=bottom-right" />
- </picture>
-</a>
+Rentzz is an independent development project and is not the official project of those upstream teams.
 
 ## License
 
-Eglantine is licensed under the GPLv3 (or any later version). Refer to the [LICENSE.txt](https://github.com/Djihads80/Eglantine/blob/nx2/LICENSE.txt) file.
+This repository contains code distributed under the licenses specified by its original authors. The inherited codebase includes GPL-licensed components. Refer to the repository's license files and the SPDX headers in individual source files for the applicable terms.
+
+Do not remove or alter original copyright and license notices when modifying inherited code.
